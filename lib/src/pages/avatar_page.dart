@@ -28,7 +28,7 @@ class AvatarPage extends StatelessWidget {
       body: Center(
         child: FadeInImage(
           image: NetworkImage(
-              'https://hipertextual.com/wp-content/uploads/2021/05/marvel.jpeg'),
+              'https://res.cloudinary.com/synapsys/image/upload/v1619622306/IMG_2363_zqarxv.jpg'),
           placeholder: AssetImage('assets/jar-loading.gif'),
           fadeInDuration: Duration(milliseconds: 200),
         ),
